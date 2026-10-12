@@ -16,12 +16,21 @@ Menerapkan *Convolutional Neural Network* (CNN) berbasis *Deep Learning* untuk k
 
 ---
 
-## Arsitektur Sistem dan Workflow Integrasi
+## Dataset & Teknologi yang Digunakan
+*   **Dataset:** [PlantVillage Dataset](https://www.kaggle.com/datasets/emmarex/plantdisease) (Fokus pada daun tomat sehat dan berpenyakit).
+*   **Machine Learning Framework:** TensorFlow / Keras (Python).
+*   **HPC Simulation:** Google Colab (Hardware Accelerator: T4 GPU).
+*   **Scripting:** Bash (Simulasi SLURM *Job Scheduler*).
+
+---
+
+## 🛠️ Arsitektur Sistem dan Workflow Integrasi
 Sebagai seorang integrator, alur kerja dibagi menjadi persiapan data lokal, perancangan model, dan eksekusi pada superkomputer.
 
 ### 1. Diagram Use Case (Perancangan Sistem)
 Diagram ini memvisualisasikan bagaimana petani (lokal) berinteraksi dengan sistem HPC yang mengelola model kecerdasan buatan.
-(use_case_diagram.png)
+
+![Use Case Diagram](use_case_diagram.png)
 
 ### 2. HPC Workflow Simulation
 Proyek ini memisahkan skrip menjadi dua bagian utama yang mencerminkan cara kerja fasilitas superkomputer sungguhan:
@@ -42,3 +51,12 @@ Karena keterbatasan akses fisik ke kluster superkomputer, eksekusi skrip ini dis
 4. Unggah skrip Python ke Google Colab dan jalankan menggunakan perintah terminal Bash untuk mensimulasikan lingkungan Linux (*environment* asli HPC):
    ```bash
    !python train_cnn_model.py
+
+Akselerasi GPU akan mempercepat pelatihan model klasifikasi daun tomat secara signifikan. Hasil waktu komputasi dan arsitektur model akan dicetak di terminal.
+
+Lihat Bukti Eksekusi Program dan Output Terminal di Google Colab di Sini:
+https://colab.research.google.com/drive/1EzNJr3sv0FDVg3OOdz2x6bZOEdX5ynOP
+
+Kesimpulan
+
+Tugas ini mendemonstrasikan bahwa algoritma canggih tidak dapat berdiri sendiri. Seperti pesan dari Dr. Worawan, pengembangan teknologi AI yang bermanfaat bagi masyarakat membutuhkan kerangka HPC Workflow yang solid—di mana manajemen sumber daya komputasi (scripting shell/Linux) sama pentingnya dengan perancangan model sains datanya sendiri.
