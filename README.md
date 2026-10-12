@@ -16,7 +16,7 @@ Menerapkan *Convolutional Neural Network* (CNN) berbasis *Deep Learning* untuk k
 
 ---
 
-## 🛠️ Arsitektur Sistem dan Workflow Integrasi
+## Arsitektur Sistem dan Workflow Integrasi
 Sebagai seorang integrator, alur kerja dibagi menjadi persiapan data lokal, perancangan model, dan eksekusi pada superkomputer.
 
 ### 1. Diagram Use Case (Perancangan Sistem)
