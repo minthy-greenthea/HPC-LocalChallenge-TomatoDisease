@@ -24,7 +24,7 @@ Menerapkan *Convolutional Neural Network* (CNN) berbasis *Deep Learning* untuk k
 
 ---
 
-## 🛠️ Arsitektur Sistem dan Workflow Integrasi
+## Arsitektur Sistem dan Workflow Integrasi
 Sebagai seorang integrator, alur kerja dibagi menjadi persiapan data lokal, perancangan model, dan eksekusi pada superkomputer.
 
 ### 1. Diagram Use Case (Perancangan Sistem)
@@ -35,9 +35,9 @@ Diagram ini memvisualisasikan bagaimana petani (lokal) berinteraksi dengan siste
 ### 2. HPC Workflow Simulation
 Proyek ini memisahkan skrip menjadi dua bagian utama yang mencerminkan cara kerja fasilitas superkomputer sungguhan:
 
-*   **`train_cnn_model.py` (Domain Science):**  
+**`train_cnn_model.py` (Domain Science):**  
     Berisi arsitektur *Artificial Intelligence* (model sekuensial CNN) yang menyimulasikan klasifikasi 10 jenis kondisi daun tomat menggunakan dataset *PlantVillage*.
-*   **`run_job.sh` (HPC Integration):**  
+**`run_job.sh` (HPC Integration):**  
     Simulasi *batch script* SLURM. Di lingkungan HPC sungguhan (seperti superkomputer *Lanta* atau *Fugaku*), program tidak dijalankan melalui klik ganda (*double-click*), melainkan dikirim sebagai *job* ke *Node* komputasi (GPU) menggunakan baris perintah (CLI) berbasis Linux.
 
 ---
@@ -54,7 +54,7 @@ Karena keterbatasan akses fisik ke kluster superkomputer, eksekusi skrip ini dis
 
 Akselerasi GPU akan mempercepat pelatihan model klasifikasi daun tomat secara signifikan. Hasil waktu komputasi dan arsitektur model akan dicetak di terminal.
 
-Lihat Bukti Eksekusi Program dan Output Terminal di Google Colab di Sini:
+Lihat Eksekusi Program dan Output Terminal di Google Colab di Sini:
 https://colab.research.google.com/drive/1EzNJr3sv0FDVg3OOdz2x6bZOEdX5ynOP
 
 Kesimpulan
