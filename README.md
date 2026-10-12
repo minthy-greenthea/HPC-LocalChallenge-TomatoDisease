@@ -1,11 +1,11 @@
-# 🍅 Bridging Global Infrastructure to Address Local Challenge: Tomato Leaf Disease Classification with HPC
+# Bridging Global Infrastructure to Address Local Challenge: Tomato Leaf Disease Classification with HPC
 
 **Studi Kasus Implementasi Materi Kuliah Umum: High Performance Computing (HPC)**  
 *Berdasarkan kuliah umum oleh Asst. Prof. Dr. Worawan Diaz Carballo*
 
 ---
 
-## 🌍 Latar Belakang: Menghubungkan Infrastruktur Global dan Masalah Lokal
+## Latar Belakang: Menghubungkan Infrastruktur Global dan Masalah Lokal
 Sesuai dengan gagasan Dr. Worawan mengenai *Bridging Global Infrastructure to Address Local Challenge*, proyek ini dirancang sebagai simulasi peran seorang **Integrator**. Seorang integrator bertugas menghubungkan kebutuhan di tingkat lokal dengan kemampuan infrastruktur komputasi kelas dunia (Superkomputer/HPC).
 
 **Masalah Lokal (*Local Challenge*):**  
@@ -21,9 +21,7 @@ Sebagai seorang integrator, alur kerja dibagi menjadi persiapan data lokal, pera
 
 ### 1. Diagram Use Case (Perancangan Sistem)
 Diagram ini memvisualisasikan bagaimana petani (lokal) berinteraksi dengan sistem HPC yang mengelola model kecerdasan buatan.
-
-*(Pastikan gambar diagram Anda bernama `use_case_diagram.png` di repositori Anda, atau sesuaikan nama file di bawah ini)*
-![Use Case Diagram](use_case_diagram.png)
+(use_case_diagram.png)
 
 ### 2. HPC Workflow Simulation
 Proyek ini memisahkan skrip menjadi dua bagian utama yang mencerminkan cara kerja fasilitas superkomputer sungguhan:
@@ -35,7 +33,7 @@ Proyek ini memisahkan skrip menjadi dua bagian utama yang mencerminkan cara kerj
 
 ---
 
-## 🚀 Cara Menjalankan Simulasi (Environment Pengganti HPC)
+## Cara Menjalankan Simulasi (Environment Pengganti HPC)
 Karena keterbatasan akses fisik ke kluster superkomputer, eksekusi skrip ini disimulasikan menggunakan infrastruktur *Cloud GPU* dari **Google Colab**.
 
 1. Unduh skrip `train_cnn_model.py` dari repositori ini.
